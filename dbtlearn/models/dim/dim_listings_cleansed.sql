@@ -6,7 +6,7 @@ select
 listing_id,
 listing_name,
 room_type,
-CASE minimum_nights = 0
+CASE WHEN minimum_nights = 0
 THEN 1
 ELSE minimum_nights
 END as minimum_nights,
