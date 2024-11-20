@@ -1,5 +1,5 @@
 with raw_listings as (
-select * from {{ source('airbnc', 'listings') }}
+select * from {{ source('airbnb', 'listings') }}
 )
 
 select 
