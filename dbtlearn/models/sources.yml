@@ -9,3 +9,6 @@ sources:
         identifier: raw_hosts
       - name: reviews
         identifier: raw_reviews
+        loaded_at_field: date
+        freshness:
+          warn_after:{count: 10, period: day}
