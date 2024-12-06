@@ -1,4 +1,4 @@
-rossmann_dbt_transformations:
+dbt_rossmann:
   outputs:
     fabric-dev:
       authentication: ActiveDirectoryPassword
