@@ -1,0 +1,13 @@
+rossmann_dbt_transformations:
+  outputs:
+    fabric-dev:
+      authentication: ActiveDirectoryPassword
+      user: papp.tamas@ibtconsulting.hu
+      password: IntelCore11235!
+      database: Test20241012_DWH
+      host: wot2kmldd4tehg3ww6lz7tbvfe-ph6rhhpdtp6ubkibw3hcsdxhse.datawarehouse.fabric.microsoft.com
+      driver: ODBC Driver 18 for SQL Server
+      schema: dbo
+      threads: 4
+      type: fabric
+  target: fabric-dev
